@@ -1,0 +1,35 @@
+[package]
+name = "facaded_random_forest"
+version = "0.2.0"
+edition = "2021"
+authors = ["Matthew Abbott"]
+description = "Multi-backend GPU-accelerated Random Forest with Facade pattern (CUDA, OpenCL, CPU, Hybrid)"
+
+[lib]
+name = "facaded_random_forest"
+crate-type = ["rlib", "cdylib"]
+
+[features]
+default = ["cuda", "opencl"]
+cuda = ["dep:cudarc"]
+opencl = ["dep:opencl3"]
+pyo3 = ["dep:pyo3"]
+napi = ["dep:napi", "dep:napi-derive"]
+cbindings = []
+
+[dependencies]
+cudarc = { version = "0.12", features = ["driver", "nvrtc", "cuda-version-from-build-system"], optional = true }
+opencl3 = { version = "0.9", optional = true }
+pyo3 = { version = "0.22", features = ["extension-module"], optional = true }
+napi = { version = "3", default-features = false, features = ["napi4"], optional = true }
+napi-derive = { version = "3", optional = true }
+
+[build-dependencies]
+napi-build = "2"
+
+[profile.release]
+opt-level = 3
+lto = true
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(kani)'] }

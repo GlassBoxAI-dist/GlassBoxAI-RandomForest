@@ -1,0 +1,30 @@
+{
+  "name": "facaded-random-forest",
+  "version": "0.2.0",
+  "description": "Multi-backend GPU-accelerated Random Forest with Facade pattern (CUDA, OpenCL, CPU, Hybrid)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "facaded-random-forest",
+    "triples": {
+      "defaults": true
+    }
+  },
+  "scripts": {
+    "build": "napi build --platform --release --features napi",
+    "build:debug": "napi build --platform --features napi"
+  },
+  "author": "Matthew Abbott",
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "*.node"
+  ]
+}

@@ -1,0 +1,7 @@
+name = "FacadedRandomForest"
+uuid = "e8a3f0d1-7b2c-4e5a-9f6d-1a2b3c4d5e6f"
+version = "0.2.0"
+authors = ["Matthew Abbott"]
+
+[compat]
+julia = "1.6"
