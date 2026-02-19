@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Internal_Logic
+ */
 //
 // Matthew Abbott 2025
 // C API for Facaded Random Forest

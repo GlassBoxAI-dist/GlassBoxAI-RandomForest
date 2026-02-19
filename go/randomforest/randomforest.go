@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Wrappers
+ */
 //
 // Matthew Abbott 2025
 // Go wrapper for Facaded Random Forest

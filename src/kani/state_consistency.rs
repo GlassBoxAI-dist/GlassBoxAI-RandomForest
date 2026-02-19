@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Global State Consistency
 // Prove state invariants and data consistency without creating full forest objects.
@@ -203,3 +205,4 @@ mod state_consistency_verification {
         kani::assert((clamped_idx as usize) < MAX_SAMPLES, "Clamped index must be in bounds");
     }
 }
+

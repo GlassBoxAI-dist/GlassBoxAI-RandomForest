@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: GPU Kernel Safety (CISA/NSA Secure-by-Design)
 //
@@ -533,3 +535,4 @@ mod gpu_kernel_safety_verification {
         );
     }
 }
+

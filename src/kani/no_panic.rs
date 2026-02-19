@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: No-Panic Guarantee
 // Verify that functions are incapable of triggering panic!, unwrap(), or expect() failures.
@@ -227,3 +229,4 @@ mod no_panic_verification {
         kani::assert(sum == 6, "Sum should be 6");
     }
 }
+

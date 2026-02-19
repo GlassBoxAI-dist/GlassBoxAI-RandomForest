@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification Test Suite for Facaded Random Forest (CISA Hardening)
 // Matthew Abbott 2025
@@ -24,3 +26,4 @@ pub mod floating_point;
 pub mod resource_limits;
 pub mod ffi_safety;
 pub mod gpu_kernel_safety;
+

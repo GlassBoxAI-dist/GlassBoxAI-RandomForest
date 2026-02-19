@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Wrappers
+ */
 //
 // Matthew Abbott 2025
 // Zig wrapper for Facaded Random Forest
@@ -397,3 +401,4 @@ pub const RandomForestFacade = struct {
         c.rff_print_forest_info(self.ptr);
     }
 };
+

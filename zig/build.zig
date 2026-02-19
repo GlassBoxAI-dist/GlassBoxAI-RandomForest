@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Wrappers
+ */
 const std = @import("std");
 
 pub fn build(b: *std.Build) void {
@@ -14,3 +18,4 @@ pub fn build(b: *std.Build) void {
     rf_mod.addLibraryPath(b.path("../target/release"));
     rf_mod.linkLibC();
 }
+

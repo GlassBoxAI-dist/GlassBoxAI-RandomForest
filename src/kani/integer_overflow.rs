@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Integer Overflow Prevention
 // Prove that all arithmetic operations are safe from wrapping, overflowing, or underflowing.
@@ -207,3 +209,4 @@ mod integer_overflow_verification {
         kani::assert(linear.is_some(), "2D to linear conversion should not overflow");
     }
 }
+

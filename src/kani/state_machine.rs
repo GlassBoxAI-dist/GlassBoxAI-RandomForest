@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: State Machine Integrity
 // Prove the system cannot transition from lower to higher privilege without validation gates.
@@ -284,3 +286,4 @@ mod state_machine_verification {
         }
     }
 }
+

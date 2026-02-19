@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Wrappers
+ */
 //
 // Matthew Abbott 2025
 // C# wrapper for Facaded Random Forest

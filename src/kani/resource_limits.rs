@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Resource Limit Compliance
 // Verify that memory allocations never exceed specified symbolic thresholds.
@@ -307,3 +309,4 @@ mod resource_limits_verification {
         );
     }
 }
+

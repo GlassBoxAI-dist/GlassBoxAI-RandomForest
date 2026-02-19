@@ -1,3 +1,5 @@
+## @file
+## @ingroup RF_Wrappers
 """
 Multi-backend GPU-accelerated Random Forest (CUDA, OpenCL, CPU, Hybrid).
 

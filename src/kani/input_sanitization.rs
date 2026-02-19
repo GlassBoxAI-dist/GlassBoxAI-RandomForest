@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Input Sanitization Bounds
 // Prove that any input-driven loop or recursion has a formal upper bound to prevent DoS.
@@ -279,3 +281,4 @@ mod input_sanitization_verification {
         kani::assert(next_depth <= i32::MAX, "Depth is bounded by i32::MAX");
     }
 }
+

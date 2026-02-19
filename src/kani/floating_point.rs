@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Floating-Point Sanity
 // Prove operations involving f32/f64 never result in unhandled NaN or Infinity.
@@ -306,3 +308,4 @@ mod floating_point_verification {
         kani::assert(min_val <= max_val, "Min <= Max");
     }
 }
+

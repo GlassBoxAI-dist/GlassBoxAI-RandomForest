@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Pointer Validity Proofs
 // For any unsafe blocks, verify all raw pointer dereferences are valid, aligned, and initialized.
@@ -175,3 +177,4 @@ mod pointer_verification {
         kani::assert(value == original.wrapping_add(1), "Mutation through pointer must work");
     }
 }
+

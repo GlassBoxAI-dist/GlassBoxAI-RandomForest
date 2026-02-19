@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Strict Bound Checks
 // Prove that all collection indexing is mathematically incapable of out-of-bounds access.
@@ -218,3 +220,4 @@ mod bounds_verification {
         let _right_child = node.right_child;
     }
 }
+

@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: FFI Boundary Safety (CISA/NSA Secure-by-Design)
 //
@@ -669,3 +671,4 @@ mod ffi_safety_verification {
         }
     }
 }
+

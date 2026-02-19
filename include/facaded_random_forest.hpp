@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Internal_Logic
+ */
 //
 // Matthew Abbott 2025
 // C++ RAII Wrapper for Facaded Random Forest

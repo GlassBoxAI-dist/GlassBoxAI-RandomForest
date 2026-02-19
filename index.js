@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_Wrappers
+ */
 /* eslint-disable no-console */
 
 const { existsSync, readFileSync } = require('fs')

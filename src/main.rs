@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Internal_Logic
 //
 // Matthew Abbott 2025
 // Random Forest CLI - Multi-Backend (CUDA, OpenCL, CPU, Hybrid)
@@ -385,3 +387,4 @@ fn main() {
         }
     }
 }
+

@@ -1,4 +1,8 @@
 /**
+ * @file
+ * @ingroup RF_Internal_Logic
+ */
+/**
  * Multi-backend GPU-accelerated Random Forest (CUDA, OpenCL, CPU, Hybrid)
  */
 

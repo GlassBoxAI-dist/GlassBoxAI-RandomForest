@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Deadlock-Free Logic
 // Verify that locking patterns follow safe hierarchies.
@@ -203,3 +205,4 @@ mod deadlock_free_verification {
         }
     }
 }
+

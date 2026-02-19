@@ -1,3 +1,7 @@
+/**
+ * @file
+ * @ingroup RF_GPU_Accelerated
+ */
 //
 // Matthew Abbott 2025
 // CUDA kernels for Facaded Random Forest

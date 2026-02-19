@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Memory Leak/Leakage Proofs
 // Prove that all allocated memory is either freed or remains reachable.
@@ -284,3 +286,4 @@ mod memory_leak_verification {
         kani::assert(sum == 6, "Sum should be 6");
     }
 }
+

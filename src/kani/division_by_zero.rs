@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Division-by-Zero Exclusion
 // Verify that any denominator derived from variable or external input is proven to never be zero.
@@ -273,3 +275,4 @@ mod division_by_zero_verification {
         kani::assert(result < max_val, "Result must be less than max_val");
     }
 }
+

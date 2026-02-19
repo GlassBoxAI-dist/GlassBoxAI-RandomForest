@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Internal_Logic
 //
 // Matthew Abbott 2025
 // Random Forest Library - Multi-Backend (CUDA, OpenCL, CPU, Hybrid)
@@ -3667,3 +3669,4 @@ mod cbindings {
         if let Some(f) = unsafe { ptr.as_ref() } { f.print_forest_info(); }
     }
 }
+

@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Constant-Time Execution (Security)
 // Verify that branching logic does not depend on secret/sensitive values to prevent timing attacks.
@@ -265,3 +267,4 @@ mod constant_time_verification {
         kani::assert(prod >= i32::MIN && prod <= i32::MAX, "Saturated prod in range");
     }
 }
+

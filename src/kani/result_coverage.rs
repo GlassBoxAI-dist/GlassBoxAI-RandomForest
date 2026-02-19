@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Result Coverage Audit
 // Verify that all Error variants in returned Result types are explicitly handled.
@@ -308,3 +310,4 @@ mod result_coverage_verification {
         }
     }
 }
+

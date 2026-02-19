@@ -1,3 +1,5 @@
+## @file
+## @ingroup RF_Wrappers
 #
 # Matthew Abbott 2025
 # Julia wrapper for Facaded Random Forest

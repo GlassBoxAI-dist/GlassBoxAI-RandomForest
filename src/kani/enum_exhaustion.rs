@@ -1,3 +1,5 @@
+//! @file
+//! @ingroup RF_Core_Verified
 //
 // Kani Verification: Enum Exhaustion
 // Verify all match statements handle every possible variant without generic panic fallbacks.
@@ -438,3 +440,4 @@ mod enum_exhaustion_verification {
         kani::assert(true, "All backend/task/criterion combinations are valid");
     }
 }
+
